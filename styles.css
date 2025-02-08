@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(29, 27, 27);
+    font-family: "Poppins", serif;
+    font-size: 1rem;
+    font-weight:100;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: 90%; 
+    width: 35%;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+form {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.heading {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+.btn-class {
+    background-color: white;
+    width: 80%;
+    height: 2.6em;
+    border-radius: 1.3em;
+    margin-bottom: 20px;
+    font-family: "Poppins", serif;
+    font-size: 0.8em;
+    font-weight:500;
+    color: black;
+    border: none;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.btn-class img {
+    padding-top: px;
+}
+
+.btn-div {
+    display: flex; 
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+}
+
+.line-grp {
+    width: 80%;
+    display: flex;
+    gap: 3px;
+    margin-top: -10px;
+    justify-content: center;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.hr-line {
+    width: 30%;
+    height: 0px;
+    border: 1px solid rgb(54, 52, 52);
+    margin: 12px;
+}
+
+.text {
+    border: solid 1px aliceblue;
+    border-radius: 2px;
+    width: 70%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;    
+    background-color: transparent;
+}
+.text::placeholder {
+    font-family: "Poppins", serif;
+}
+
+.forgot {
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+}
+
+p {
+    font-size: 0.8em;
+}
+p > a {
+    color:aqua ;
+    text-decoration: none;
+}
